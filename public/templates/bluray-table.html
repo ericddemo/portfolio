@@ -1,0 +1,17 @@
+<!-- widget grid -->
+<section id="widget-grid" widget-grid>
+
+  <div class="jarviswidget-color-blueDark jarviswidget jarviswidget-sortable">
+    <header class="bluray-header">
+      <span class="widget-icon"> <i class="fa fa-film"></i> </span>
+      <h2>Bluray List</h2>
+    </header>
+
+    <div>
+      <div class="widget-body no-padding"> 
+        <div ik-data-table="blurayList" table-columns="filters" table-options="tableOptions" cg-busy="{promise:loadingPromise,message:loadingMessage, minDuration:500}"></div>
+      </div> <!--widget body-->
+    </div>
+    <!-- end widget -->
+</section>
+<!-- end widget grid -->

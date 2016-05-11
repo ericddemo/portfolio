@@ -1,0 +1,104 @@
+{
+ "title": "news",
+ "children": [
+  {
+   "title": "tech",
+   "children": [
+    {"title": "CES 2015: What the Biggest Tech Trends Will Be", "link": "http://abcnews.go.com/Technology/ces-2015-biggest-tech-trends/story?id=27966276", 
+		"contentSnippet":"Get ready to have your mind blown when the 2015 International Consumer Electronics show kicks off in Las Vegas this week, showcasing new gadgets and tech trends. The official event gets underway on Tuesday in Las Vegas, where approximately 3,500 companies are expected to show off technology and services that not only impress but promise to make life easier.", 
+		"size": 15},
+    {"title": "Netflix blocks CUSTOMERS using VPNs", "link": "http://www.computerworld.com/article/2864454/netflix-blocks-customers-using-vpns-itbwgk.html", 
+		"contentSnippet":"Online video purveyor Netflix is now reportedly blocking most VPN-based connections to its service. VPN's incidentally, provide an easy way for non-US based Netflix customers to watch US content and movies. But, as it turns out, Netflix may be celebrating a bit prematurely: Instructions like \"How-to circumvent Netflix's block to the VPN circumvent\" are already spreading in forums.", 
+		"size": 12},
+    {"title": "71% of home purchases influenced by word-of-mouth or in-store referrals", "link": "http://phys.org/wire-news/181905329/71-of-home-internet-of-things-purchases-influenced-by-word-of-mo.html", 
+		"contentSnippet":"Internet of Things Consortium (IoTC) today announced new research that indicates that nearly 65% of American consumers are moderately or extremely interested in adopting a smart home solution, and 71% of those consumers make smart home purchases based on word-of-mouth referrals by friends and family or recommendations made in-store by employees.", 
+		"size": 16}
+   ]
+  },
+  {
+   "title": "world",
+   "children": [
+    {"title": "China complains to Pyongyang after N Korean soldier kills villagers", "link": "http://www.theguardian.com/world/2015/jan/05/north-korean-soldier-shot-by-chinese-army-after-killing-spree",
+		"contentSnippet":"North Korean army defector reported to have killed four villagers after crossing border into Jilin province. Beijing has lodged a formal complaint with Pyongyang after a North Korean army defector sneaked across the border and killed four Chinese villagers with a handgun.", 
+		"size": 20},
+    {"title": "Muddy waters cloud search for AirAsia Flight QZ8501", "link": "http://edition.cnn.com/2015/01/05/world/asia/airasia-disaster/", 
+		"contentSnippet":"(CNN)Divers searching in the depths of the Java Sea for wreckage from AirAsia Flight QZ8501 say big waves on the surface aren't the only difficulty they're facing. They also can't see in front of them down on the sea floor. The diving teams who made their way to the bottom of the sea Sunday encountered muddy waters with zero visibility, according to officials.", 
+		"size": 25},
+    {"title": "France vows to strike at terrorists leaving southern Libya", "link": "http://www.stltoday.com/news/world/france-vows-to-strike-at-terrorists-leaving-southern-libya/article_5259cfe6-5e02-5626-b7af-bb8457847e1f.html", 
+		"contentSnippet":"PARIS (AP) - French President Francois Hollande is ruling out unilateral military intervention in Libya but says French forces will strike Islamic extremists leaving the country to bring arms to Africa's Sahel region. Hollande urged the United Nations to take action to stem growing violence in the North African country.", 
+		"size": 12},
+    {"title": "Al-Shabaab claims responsibility for Somalia bomb attack", "link": "http://news.xinhuanet.com/english/africa/2015-01/05/c_133896158.htm", 
+		"contentSnippet":"MOGADISHU, Jan. 4 (Xinhua) -- Somalia's Al-Shabaab militant group has claimed responsibility for Sunday's suicide bomb attack in Somali capital Mogadishu, which killed at least 6 people and injured several others. \"We are targeting convoy of special forces units Alpha Group, and killed many of them at suicide attack,\" said Al-Shabaab spokesman Ali Mohamud Rage.", 
+		"size": 10}
+   ]
+  },
+  {
+   "title": "usa",
+   "children": [
+    {"title": "Names You'll Hear at the Tsarnaev Trial", "link": "http://www.boston.com/news/local/massachusetts/2015/01/05/names-you-hear-the-tsarnaev-trial/wBYc9rZxU3IJlnmLrSgknM/story.html", 
+		"contentSnippet":"The trial of Dzhokhar Tsarnaev, the man accused of setting off the bombs that killed three and injured 260 at the finish line of the Boston Marathon, begins January 5. The trial is expected to last several months, and there will be plenty of names and biographies that will be mentioned.", 
+		"size": 15},
+    {"title": "Missing 3-week-old California infant found dead in dumpster after parents, uncle shot in her home", "link": "http://www.nydailynews.com/news/crime/3-week-old-baby-missing-3-adults-shot-home-cops-article-1.2065299", 
+		"contentSnippet":"A missing 3-week-old child was found dead in a dumpster more than 100 miles from where a gunman critically wounded her parents and uncle,police said. Eliza Delacruz was discovered inside a trash bag at an Imperial Beach shopping center at about 1:25 p.m. Sunday, according to NBC Los Angeles.", 
+		"size": 15},
+    {"title": "Mike Huckabee Leaves Fox News as He Weighs 2016 Bid", "link": "http://abcnews.go.com/Politics/mike-huckabee-leaves-fox-news-weighs-2016-bid/story?id=27983416", 
+		"contentSnippet":"Mike Huckabee announced Saturday night that he is leaving Fox News as he weighs a potential presidential run in 2016 saying, \"As much as I have loved doing the show, I cannot bring myself to rule out another presidential run.\" \"Oh be clear, I'm not making that announcement right now and my timetable is still just what wait was before, later this spring, but I agree with Fox this is the right thing and now is the right time,\" he said.", 
+		"size": 10},
+    {"title": "Same-sex marriage ban to be lifted Tuesday", "link": "http://www.firstcoastnews.com/story/news/politics/2015/01/05/florida-gay-marriage-ban-heads-for-midnight-end/21278333/", 
+		"contentSnippet":"MIAMI (AP) - Florida's ban on marriages between same-sex couples is headed for a midnight end, with wedding vows planned around the state. A stay expires late Monday in a federal judge's ruling striking down the ban enacted in 2008 by voters. Several court clerks are planning to begin issuing wedding licenses to gay couples beginning at 12:01 a.m. Tuesday, with some also scheduling early-morning marriage ceremonies.", 
+		"size": 12},
+    {"title": "Mayor de Blasio must admit mistakes to fix relationship with NYPD officers", "link": "http://www.nydailynews.com/new-york/mayor-de-blasio-admit-mistakes-fix-divide-nypd-article-1.2065818", 
+		"contentSnippet":"While the divide between the mayor and NYPD is not all of de Blasio's fault, it is up to him to fix it. He needs to be the big guy here, in all ways. On the first Sunday of a new year, at the Aievoli Funeral Home in Bensonhurst, it should all have been a hymn to the life of Officer Wenjian Liu, who died in Brooklyn two weeks ago as he was just beginning to live out, fully, the life in his city that he had imagined for himself.", 
+		"size": 20},
+    {"title": "San Francisco cops fatally shoot man wielding BB gun outside police station: police chief", "link": "http://www.nydailynews.com/news/national/s-f-cops-shoot-dead-man-wielding-bb-gun-police-chief-article-1.2065998", 
+		"contentSnippet":"Two San Francisco police officers gunned down a man armed with an airsoft pistol Sunday after he drew the realistic-looking weapon while in a restricted parking area outside the Mission district police station, the department said. The unidentified 32-year-old white man was loitering in the patrol car lot on Valencia street around 5:15 p.m. when he refused an order to leave the area, San Francisco Police Chief Greg Suhr told reporters Sunday evening.", 
+		"size": 25}
+   ]
+  },
+  {
+   "title": "business",
+   "children": [
+    {"title": "Oil Below $60 Tests Economics of U.S. Shale Boom", "link": "http://www.bloomberg.com/news/2015-01-05/oil-below-60-tests-u-s-drive-for-energy-independence.html", 
+		"contentSnippet":"Oil's biggest bust since the global recession was good for a few cases of whiplash. Just two months ago, Continental Resources Inc. (CLR), the shale driller founded by billionaire Harold Hamm, budgeted for $80-a-barrel oil and planned to spend $4.6 billion in 2015. Six weeks later, with crude down 29 percent in the interim, Continental cut its 2015 budget to $2.7 billion.", 
+		"size": 8},
+    {"title": "Chrysler, Honda, Nissan set sales records in 2014", "link": "http://www.usatoday.com/story/money/cars/2015/01/05/auto-sales-2014/21154809/", 
+		"contentSnippet":"Chrysler Group said its December new-vehicle sales were best in a decade, and full-year sales were best since 2006. The automaker said 11 of its vehicles set sales records for December. It was the 57th consecutive month of year-over-year sales increase for Chrysler, which took the name FCA US late last year. Chrysler was combined with Italy's Fiat into FCA -- Fiat Chrysler Automobiles.", 
+		"size": 5},
+    {"title": "Gas prices shatter $2 barrier in Michigan", "link": "http://www.freep.com/story/money/business/michigan/2015/01/05/gas-prices-michigan-detroit-january/21279809/", 
+		"contentSnippet":"Gas prices continued their free fall in Michigan, officially breaking the $2 barrier last week. The average price of gas in Michigan is $1.91, down about 14 cents from a week ago, according to AAA. That's the lowest mark in the state in nearly six years.", 
+		"size": 12},
+    {"title": "'Miserable' tax season could be worst in years", "link": "http://money.cnn.com/2015/01/05/pf/taxes/tax-filing-irs/", 
+		"contentSnippet":"The upcoming tax season is likely to be the worst in years -- for the IRS and potentially for taxpayers. The reason: The IRS budget keeps getting smaller, and the tax code keeps getting more complicated.", 
+		"size": 14}
+   ]
+  },
+  {
+   "title": "sport",
+   "children": [
+    {"title": "Romo, Cowboys rally past Lions 24-20 in wild card", "link": "http://www.chron.com/sports/article/Romo-Cowboys-rally-past-Lions-24-20-in-wild-card-5993577.php", 
+		"contentSnippet":"ARLINGTON, Texas (AP) - Face-down on the turf, Tony Romo pounded his hands into the ground like a petulant child. Frustrated by yet another season-ending failure? Far from it. The Dallas quarterback was celebrating after giving the Cowboys the lead in a stirring playoff comeback.", 
+		"size": 8},
+	{"title": "Rand: Stuart Scott made sure sports were fun", "link": "http://www.startribune.com/sports/287472841.html", 
+		"contentSnippet":"News Sunday of Stuart Scott's death - only 49 years old, after a seven-year bout with cancer - led to many wonderful tributes to his legacy. Having never met him, we'll leave the universal platitudes about his work ethic and devotion to family to others who knew him very well. They are surely well-earned, as are the words about how gracefully and ferociously he battled an awful disease.", 
+		"size": 6}
+   ]
+  },
+  {
+   "title": "phil",
+   "children": [
+    {"title": "Revelers in indiscriminate firing video charged in Ilocos Sur", "link": "http://www.gmanetwork.com/news/story/399111/news/regions/revelers-in-indiscriminate-firing-video-charged-in-ilocos-sur", 
+		"contentSnippet":"The men who were caught on video firing their guns indiscriminately in Ilocos Sur during the New Year's have been charged, the Philippine National Police said on Monday. The PNP's public information office in the Ilocos Region said the men in the video that has become viral over the social media have been charged with alarm and scandal before the Municipal Circuit Trial Court (MCTC) in Narvacan, Ilocos Sur.", 
+		"size": 8},
+    {"title": "US Navy drone recovered in Quezon", "link": "http://www.gmanetwork.com/news/story/399264/news/regions/us-navy-drone-recovered-in-quezon", 
+		"contentSnippet":"The PNP in Quezon Province has recovered an \"aerial target drone\" believed to be owned and operated by the US Navy. The drone bearing serial number BQ55079 and marked US Navy was recovered by Patnanungan PNP at 4 p.m. on Sunday at Sitio Katakian in Barangay Busdak.", 
+		"size": 12},
+    {"title": "Noy wants BBL, investor-friendly laws this year", "link": "http://www.philstar.com/headlines/2015/01/05/1409519/noy-wants-bbl-investor-friendly-laws-year", 
+		"contentSnippet":"MANILA, Philippines - The Bangsamoro Basic Law (BBL) and measures aimed to attract investments are among 18 of 29 priority bills President Aquino wants passed this year, a Malacanang official said yesterday. Press Secretary Herminio Coloma Jr. said the executive department would continue to coordinate with legislators in pushing forward the reform agenda of the Aquino administration to achieve inclusive growth.", 
+		"size": 13},
+    {"title": "Army troops capture BIFF training camp in Maguindanao", "link": "http://newsinfo.inquirer.net/662451/army-troops-capture-biff-training-camp-in-maguindanao", 
+		"contentSnippet":"COTABATO CITY, Philippines - After hours of mortar shelling and ground assaults Monday, the military here announced the capture of a major training camp of the Bangsamoro Islamic Freedom Fighters (BIFF). Lieutenant Colonel Markton Abu, chief of the 33rd Infantry Battalion, said the rebels have fled, leaving their camp situated in Sitio Pedtad, Barangay Midpantakan, Gen. Salipada K. Pendatun, Maguindanao.", 
+		"size": 10}
+   ]
+  }
+ ]
+}

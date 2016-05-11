@@ -1,0 +1,19 @@
+<div class="newsmap-cats">
+  <div data-cat="all" ng-click="changeCat($event)" ng-class="{newsSelected : category == 'all' }" class="newsSelect catLeft">All</div>
+  <div data-cat="usa" ng-click="changeCat($event)" ng-class="{newsSelected : category == 'usa' }" class="newsSelect">USA</div>
+  <div data-cat="world" ng-click="changeCat($event)" ng-class="{newsSelected : category == 'world' }" class="newsSelect">World</div>
+  <div data-cat="business" ng-click="changeCat($event)" ng-class="{newsSelected : category == 'business' }" class="newsSelect">Finance</div>
+  <div data-cat="tech" ng-click="changeCat($event)"ng-class="{newsSelected : category == 'tech' }" class="newsSelect">Technology</div>
+  <div data-cat="phil" ng-click="changeCat($event)"ng-class="{newsSelected : category == 'phil' }" class="newsSelect">Philippines</div>
+  <div data-cat="sport" ng-click="changeCat($event)"ng-class="{newsSelected : category == 'sport' }" class="newsSelect catRight">Sports</div>
+  
+</div>
+<p style="padding-left:20px;" id="pdata"></p>
+
+
+<div id="tooltip" class="hidden">
+  <p><strong id="tooltipHeading"></strong></p>
+  <p><span id="snippet"></span></p>
+</div>
+
+
