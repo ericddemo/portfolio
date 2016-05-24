@@ -77,6 +77,39 @@ li.spacer:hover{
   text-align: left;
   z-index: 10;
 }
+.tooltip3 {
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #000;
+  font-size: 13px;
+  padding: 5px;
+  position: absolute;
+  text-align: left;
+  z-index: 999;
+}
+#tooltip {
+  position: absolute;
+  background: #eee;
+  box-shadow: 0 0 5px #999999;
+  color: #000;
+  width: 300px;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  pointer-events: none;
+  z-index: 999;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+}
 .tick text {
   font-size: 16px;
 }
@@ -130,7 +163,6 @@ h1 {
 #pdata {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
-  width: 960px;
 }
 
 form {
@@ -164,33 +196,7 @@ form {
     background-image:      -o-linear-gradient(top, hsla(0,0%,100%,.1), hsla(0,0%,100%,.4));
     background-image:         linear-gradient(top, hsla(0,0%,100%,.1), hsla(0,0%,100%,.4)); 
 }
-#tooltip {
-  position: absolute;
-  color: black;
-  width: 300px;
-  height: auto;
-  padding: 5px;
-  background-color: white;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-  pointer-events: none;
-  z-index: 999;
-}
 
-#tooltip.hidden {
-  display: none;
-}
-
-#tooltip p {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 15px;
-}
 .newsmap-cats {
   padding:20px;
   cursor: pointer;
@@ -222,36 +228,6 @@ form {
 }
 .newsSelected {
   border: solid 1px #fff; 
-}
-.catLeft {
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
-  -webkit-border-bottom-left-radius: 7px;
-  -webkit-border-top-left-radius: 7px;
-  -moz-border-radius-bottomleft: 7px;
-  -moz-border-radius-topleft: 7px;
-}
-.catRight {
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
-  -webkit-border-bottom-right-radius: 7px;
-  -webkit-border-top-right-radius: 7px;
-  -moz-border-radius-bottomright: 7px;
-  -moz-border-radius-topright: 7px;
-}
-.slick-headerrow-column {
-  background: #87ceeb;
-  text-overflow: clip;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.slick-headerrow-column input {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 .bluray-header {
   background: #2C3742 !important;

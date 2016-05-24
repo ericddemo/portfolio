@@ -6,9 +6,7 @@ angular.module('demoApp')
     $scope.category = "all";
 
     var div, treemap, color, domain;
-    var margin = {top: 40, right: 10, bottom: 10, left: 10},
-      width = 960 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom;
+    var margin = {top: 40, right: 10, bottom: 10, left: 10};
 
     $scope.changeCat = function(event){
       if($(event.target).attr("data-cat") == $scope.category) return;
@@ -18,12 +16,10 @@ angular.module('demoApp')
     function zoomData(category){
       $scope.$evalAsync(function() { $scope.category = category; });
       
-      //$scope.$apply();
-
       d3.select("#newsmap").remove();
 
       treemap = d3.layout.treemap()
-        .size([width, height])
+        .size([getWidth(), getHeight()])
         .sticky(true)
         .value(function(d) { return d.size; });
 
@@ -31,8 +27,8 @@ angular.module('demoApp')
         .attr("id","newsmap")
         .style("opacity","0")
         .style("position", "relative")
-        .style("width", (width + margin.left + margin.right) + "px")
-        .style("height", (height + margin.top + margin.bottom) + "px")
+        .style("width", getWidth(true))
+        .style("height", getHeight(true))
         .style("left", "0px")
         .style("top", margin.top-15 + "px")
         .style("margin-top","-20px");
@@ -146,7 +142,7 @@ angular.module('demoApp')
       });
         
       treemap = d3.layout.treemap()
-        .size([width, height])
+        .size([getWidth(), getHeight()])
         .sticky(true)
         .value(function(d) { return d.size; });
 
@@ -154,14 +150,30 @@ angular.module('demoApp')
         .attr("id","newsmap")
         .style("opacity","0")
         .style("position", "relative")
-        .style("width", (width + margin.left + margin.right) + "px")
-        .style("height", (height + margin.top + margin.bottom) + "px")
+        .style("width", getWidth(true))
+        .style("height", getHeight(true))
         .style("left", "0px")
         .style("top", margin.top-15 + "px")
         .style("margin-top","-20px");
 
       drawNewsmap();
     } //end createNewsmap()
+
+    function getWidth(returnPixels){
+      var width = $(window).width();
+      width = Math.min(950,width-100);
+      return returnPixels ? width + 'px' : width;
+    }
+
+    function getHeight(returnPixels){
+      var height = $(window).height();
+      height = Math.min(550,height-120);
+      return returnPixels ? height + 'px' : height;
+    }
+
+    $(window).bind("resize", function(){
+      zoomData($scope.category);
+    });
 
     createNewsmap();
 }]);

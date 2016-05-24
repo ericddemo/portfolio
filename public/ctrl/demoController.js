@@ -98,15 +98,6 @@ angular.module('demoApp')
 
     };
    
-    myLayout.registerComponent( 'template', function( container, state ){
-        var html = $compile('<div>{{test}}</div>')($scope);
-        container.getElement().html(html);
-    });
-
-    myLayout.registerComponent( 'testComponent', function( container, componentState ){
-        container.getElement().html( '<h2>' + $scope.test + '</h2>' );
-    });
-
     myLayout.registerComponent( 'blurayGrid', BlurayGridComponent );
 
     myLayout.registerComponent( 'd3DonutComponent', function( container, componentState ){
@@ -144,4 +135,8 @@ angular.module('demoApp')
     });
 
     myLayout.init();
+
+    $(window).bind("resize", function(){
+      myLayout.updateSize();
+    });
 }]);
